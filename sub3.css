@@ -1,0 +1,231 @@
+.grand-cont {
+    margin: 0px;
+}
+
+/* block1 */
+
+.block1 {
+    /* background-color: rgba(44, 7, 102, 0.817); */
+    background-image: url(https://img.freepik.com/free-photo/background-gradient-lights_23-2149304984.jpg?w=996&t=st=1709467892~exp=1709468492~hmac=11f7a7f7ce6b568ff49ea092d0814c9c523e8d783ef854eb44e9e0a6387ed3d7);
+    background-size:cover;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-text {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    width: 50rem;
+    margin-bottom: 0px;
+
+}
+
+.big-text:hover{
+    color: rgb(128, 128, 128);
+}
+
+.small-text {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.small-text:hover{
+    color: grey;
+}
+
+.click {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.button {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9rem;
+    color: white;
+    background-color: rgba(158, 150, 0, 0.765);
+    height: 2rem;
+    font-size: .9rem;
+    border-radius: 5px;
+    margin-left: .8rem;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: rgba(151, 144, 4, 0.441);
+}
+
+
+
+/* block2 */
+
+.block2 {
+    background-image: url(https://www.devopsinstitute.com/wp-content/uploads/2023/05/SUD-Homepage-Banner-Image-1920x1080px-V1.png);
+    height: 50rem;
+    background-size: contain;
+}
+
+
+/* block3 */
+.block3 {
+    margin-top: 4rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+/* block4 */
+.block4 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 5rem;
+}
+
+.logo1 {
+    background-image: url(https://www.devopsinstitute.com/wp-content/uploads/2022/09/Dell-Technologies-Company-Logo-100x250px-3.jpg);
+
+    height: 5rem;
+    width: 15rem;
+}
+
+.logo2 {
+    background-image: url(https://www.devopsinstitute.com/wp-content/uploads/2022/09/CircleCi-Company-Logo-100x250px-3.jpg);
+
+    height: 5rem;
+    width: 15rem;
+
+}
+
+.logo3 {
+    background-image: url(https://www.devopsinstitute.com/wp-content/uploads/2022/09/Verizon-Company-Logos-100x250px-3.jpg);
+    height: 5rem;
+    width: 15rem;
+
+}
+
+.logo4 {
+    background-image: url(https://www.devopsinstitute.com/wp-content/uploads/2022/09/IBM-Company-Logo-100x250px-3.jpg);
+
+    height: 5rem;
+    width: 15rem;
+
+}
+
+.logo5 {
+    background-image: url(https://www.devopsinstitute.com/wp-content/uploads/2022/09/SAIC-Company-Logo-100x250px-3.jpg);
+
+    height: 5rem;
+    width: 15rem;
+}
+
+
+/* block5 */
+
+.block5 {
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-weight: 800;
+    color: #0e2334;
+    margin-top: 5rem;
+
+}
+
+/* block6 */
+
+.block6 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 20rem;
+    margin-bottom: 15rem;
+
+}
+
+
+
+.box1 {
+    height: 20rem;
+    width: 15rem;
+    border-radius: 5rem;
+    margin: 3rem;
+    padding: 1.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.4rem;
+    background-color: rgb(73, 3, 138);
+    color: aliceblue;
+
+
+
+}
+
+.box2 {
+    height: 20rem;
+    width: 15rem;
+    border-radius: 5rem;
+    margin: 3rem;
+    padding: 1.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.4rem;
+    background-color: rgb(180, 117, 239);
+    color: aliceblue;
+
+}
+
+.box3 {
+    height: 20rem;
+    width: 15rem;
+    border-radius: 5rem;
+    margin: 3rem;
+    padding: 1.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.4rem;
+    background-color: rgba(147, 113, 179, 0.589);
+    color: aliceblue;
+
+}
+
+/* block7 */
+
+.End{
+    background-color: #52184fa2;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;  
+    margin-top: 8rem;
+}
+
+
+.list-container{
+    display: flex;
+
+}
+.list ul{
+    display: flex;
+    flex-direction: column;
+}
+.list1{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,350 @@
+body{
+    background-image: url(https://cdn.dribbble.com/users/2192909/screenshots/13542796/media/8f939f2677e13529c475a306cb3bbe53.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:30rem;
+    backdrop-filter: blur(2px);
+}
+
+/* block1 */
+
+.block1{
+    width: 50%;
+    backdrop-filter: blur(2px);
+
+}
+
+.heading{
+    margin-top :5rem; 
+    margin-left :5rem; 
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.dis{
+    margin-left :5rem; 
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 2rem;
+    font-size :1.5rem; 
+    font-weight: bold;
+
+
+}
+.points{
+    font-size :1.1rem; 
+    margin-left :3rem; 
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+
+}
+
+.click{
+    display: flex;
+    margin-top: 4.8rem;
+    
+
+}
+.button1{
+    width: 250px;
+    height:60px;
+    background-color:rgb(86, 86, 196);
+    border-radius: 1rem;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button1:hover{
+    background-color:rgb(234, 234, 234);
+    color:rgb(86, 86, 196); 
+
+}
+
+.button2{
+    width: 250px;
+    height:60px ;
+    border: 1px solid white ;
+    border-radius: 1rem;
+    margin-left: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.button2:hover{
+    border: 1px solid rgb(86, 86, 196);
+    background-color: rgb(86, 86, 196);
+    color: white;
+    
+ 
+    
+}
+
+
+/* block2 */
+
+.block2{
+
+}
+.block2-text{
+    text-align: center;
+    font-size:2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+
+
+
+
+/* block3 */
+
+.block3{
+    margin-left: 4rem;
+    margin-right: 4rem;
+
+}
+.box-cont{
+    display: flex;
+    justify-content: space-evenly;
+    backdrop-filter: blur(2px);
+    background-color: rgb(8, 8, 59);
+    border-radius: 1rem;
+
+}
+
+.box1{
+    width:380px ;
+    height:340px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    /* align-items: center;   */
+     border: 5px 0px 5px 0px;
+    border-color: rgb(54, 54, 193);
+ 
+
+}
+.box1-img{
+    background-image: url(https://buildfire.com/wp-content/themes/buildfire/assets/images/phone.jpg);
+    width:380px ;
+    height:150px;
+    background-size: contain;
+    width:400px ;
+    height:400px ;
+    background-repeat: no-repeat;
+
+}
+
+
+.box2{
+    width:380px ;
+    height:340px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    /* align-items: center;   */
+     border: 5px 0px 5px 0px;
+    border-color: rgb(54, 54, 193);
+  
+
+}
+
+.box2-img{
+    background-image: url(https://buildfire.com/wp-content/themes/buildfire/assets/images/phone2.jpg);
+    width:380px ;
+    height:150px;
+    background-size: contain;
+    width:400px ;
+    height:400px ;
+    background-repeat: no-repeat;
+
+}
+
+.box3{
+    width:380px ;
+    height:340px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    /* align-items: center;   */
+     border: 5px 0px 5px 0px;
+    border-color: rgb(54, 54, 193);
+    
+
+}
+.box3-img{
+    background-image: url(https://buildfire.com/wp-content/themes/buildfire/assets/images/phone3.jpg);
+    width:380px ;
+    height:150px;
+    background-size: contain;
+    width:400px ;
+    height:400px ;
+    background-repeat: no-repeat;
+
+}
+
+.text1{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    color:white;
+    backdrop-filter: blur(2px);
+    
+}
+
+.text2{
+    font-family: "Roboto Slab", serif;
+    color: white;
+    backdrop-filter: blur(2px);
+
+}
+
+/* block4 */
+.block4{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+
+}
+.button3{
+    width: 250px;
+    height:60px ;
+    background-color: #14cc5e;
+    color: whitesmoke;
+    border-radius: 1rem;
+    margin-left: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.button3:hover{
+    background-color: #14cc5e8c;
+
+}
+
+
+/* block5 */
+
+
+
+.block5-text{
+    text-align: center;
+    font-size:2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* block6 */
+
+.block6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(8, 8, 59);
+    margin-left: 9rem;
+    margin-right: 9rem;
+    color: white;
+    border-radius: 4rem;
+    
+    
+
+}
+.block6-text{
+    width: 550px;
+    height: 450px;
+   
+
+}
+.big{
+   
+    font-size: 1.5rem;
+    font-family: "Roboto Slab", serif;
+    padding-top: 4rem;
+    padding-left: 3rem;
+
+}
+.small{
+    font-size: 1rem;
+    font-family: "Roboto Slab", serif;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    
+
+}
+
+.block6-img{
+    background-image: url(https://buildfire.com/wp-content/themes/buildfire/assets/images/bf-plus-img@3x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 400px;
+}
+.button4{
+    width: 260px;
+    height:40px ;
+    background-color:rgb(92, 92, 193);
+    color: whitesmoke;
+    border-radius: .5rem;
+    margin-left: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+.button4:hover{
+    background-color:rgba(92, 92, 193, 0.639);
+
+}
+
+/* footer */
+
+.End{
+    background-color: #162535a2;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;  
+    margin-top: 8rem;
+}
+
+
+.list-container{
+    display: flex;
+
+}
+.list ul{
+    display: flex;
+    flex-direction: column;
+}
+.list1{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
