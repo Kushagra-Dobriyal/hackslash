@@ -9,6 +9,9 @@ body{
 /* .Big-cont */
 .Big-cont{
     display: flex;
+    animation-name: upset;
+    animation-duration: 2.8s;
+    animation-iteration-count: 1;
  
 }
 
@@ -21,6 +24,9 @@ body{
     padding-left: 7rem; 
     padding-top:2rem;
     width:666px;  
+    animation-name: upset;
+    animation-duration: .7s;
+    animation-iteration-count: 1;
 }
 
 .img1{
@@ -54,6 +60,9 @@ button:hover{
 .block2{
     width: 50rem; 
     margin-left: 7rem; 
+    animation-name: upset;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
 }
 
 
@@ -87,6 +96,9 @@ button:hover{
     display: flex;
     justify-content: space-evenly;
     margin: 3rem 10rem 0px 10rem;
+    animation-name: upset;
+    animation-duration: 2.2s;
+    animation-iteration-count: 1;
 }
 
 
@@ -121,6 +133,9 @@ button:hover{
     display: flex;
     justify-content: space-evenly;  
     margin-top: 8rem;
+    animation-name: upset;
+    animation-duration: 2.8s;
+    animation-iteration-count: 1;
 }
 
 
@@ -139,4 +154,18 @@ button:hover{
 a{
     text-decoration: none;
     color: white;
+}
+
+
+/* animations */
+
+@keyframes upset{
+    0%{
+        opacity: 0.2;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }

@@ -13,6 +13,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation-name: upset;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
 }
 
 .big-text {
@@ -75,6 +78,9 @@
     background-image: url(https://www.devopsinstitute.com/wp-content/uploads/2023/05/SUD-Homepage-Banner-Image-1920x1080px-V1.png);
     height: 50rem;
     background-size: contain;
+    animation-name: upset;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
 }
 
 
@@ -84,6 +90,9 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
+    animation-name: upset;
+    animation-duration: 2.2s;
+    animation-iteration-count: 1;
 }
 
 /* block4 */
@@ -92,6 +101,9 @@
     justify-content: space-evenly;
     width: 100%;
     height: 5rem;
+    animation-name: upset;
+    animation-duration: 2.8s;
+    animation-iteration-count: 1;
 }
 
 .logo1 {
@@ -141,6 +153,9 @@
     font-weight: 800;
     color: #0e2334;
     margin-top: 5rem;
+    animation-name: upset;
+    animation-duration: 3.5s;
+    animation-iteration-count: 1;
 
 }
 
@@ -152,6 +167,9 @@
     width: 100%;
     height: 20rem;
     margin-bottom: 15rem;
+    animation-name: upset;
+    animation-duration: 4.3s;
+    animation-iteration-count: 1;
 
 }
 
@@ -202,6 +220,11 @@
 }
 
 /* block7 */
+.block7{
+    animation-name: upset;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
 
 .End{
     background-color: #52184fa2;
@@ -228,4 +251,17 @@
 a{
     text-decoration: none;
     color: white;
+}
+
+
+/* ANIMATION */
+@keyframes upset{
+    0%{
+        opacity: 0.2;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
