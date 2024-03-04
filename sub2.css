@@ -3,8 +3,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     width:100%;
-    height:30rem;
-    backdrop-filter: blur(2px);
+    height:10rem;
 }
 
 /* block1 */
@@ -12,6 +11,7 @@ body{
 .block1{
     width: 50%;
     backdrop-filter: blur(2px);
+    margin-left: 2rem;;
 
 }
 
@@ -97,9 +97,21 @@ body{
 }
 .block2-text{
     text-align: center;
-    font-size:2rem;
+    font-size:3rem;
+    font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+    color: rgb(142, 172, 232);
+    margin-bottom: 15rem;
+    margin-top: 10rem;
+    transition: all;
+    transition-duration: .2s;
+    /* transition-delay: .1s; */
+}
+
+.block2-text:hover{
+    color: rgb(40, 96, 207);
+
+
 }
 
 
@@ -111,14 +123,24 @@ body{
 .block3{
     margin-left: 4rem;
     margin-right: 4rem;
+    height: 20rem;
+    margin-bottom: 8rem;
+    
 
 }
 .box-cont{
+    height: 380px;
     display: flex;
     justify-content: space-evenly;
-    backdrop-filter: blur(2px);
+    /* backdrop-filter: blur(2px); */
     background-color: rgb(8, 8, 59);
     border-radius: 1rem;
+    transition: all;
+    transition-duration: .2s;
+    transition-delay: .2s;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-dark-blue-beam-matte-upscale-gradient-background-bluebeamscrubhigh-gradegradientbackgroundexhibition-board-image_86513.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
@@ -128,20 +150,21 @@ body{
     display: flex;
     flex-direction: column;
     justify-content:center ;
-    /* align-items: center;   */
-     border: 5px 0px 5px 0px;
+    align-items: center;  
+    border: 5px 0px 5px 0px;
     border-color: rgb(54, 54, 193);
- 
+    margin: 1rem;
 
 }
 .box1-img{
     background-image: url(https://buildfire.com/wp-content/themes/buildfire/assets/images/phone.jpg);
-    width:380px ;
-    height:150px;
+    /* width:380px ;
+    height:150px; */
     background-size: contain;
-    width:400px ;
-    height:400px ;
+    width:100% ;
+    height:100%;
     background-repeat: no-repeat;
+    padding: 4px;
 
 }
 
@@ -155,13 +178,14 @@ body{
     /* align-items: center;   */
      border: 5px 0px 5px 0px;
     border-color: rgb(54, 54, 193);
+    margin: 1rem;
   
 
 }
 
 .box2-img{
     background-image: url(https://buildfire.com/wp-content/themes/buildfire/assets/images/phone2.jpg);
-    width:380px ;
+    width:100%;
     height:150px;
     background-size: contain;
     width:400px ;
@@ -177,14 +201,15 @@ body{
     flex-direction: column;
     justify-content:center ;
     /* align-items: center;   */
-     border: 5px 0px 5px 0px;
+    border: 5px 0px 5px 0px;
     border-color: rgb(54, 54, 193);
+    margin: 1rem;
     
 
 }
 .box3-img{
     background-image: url(https://buildfire.com/wp-content/themes/buildfire/assets/images/phone3.jpg);
-    width:380px ;
+    width:100%;
     height:150px;
     background-size: contain;
     width:400px ;
@@ -198,14 +223,17 @@ body{
     font-weight: bold;
     font-family: "Roboto Slab", serif;
     color:white;
-    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+  
     
 }
 
 .text2{
     font-family: "Roboto Slab", serif;
     color: white;
-    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -247,6 +275,13 @@ body{
     text-align: center;
     font-size:2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+.block5-text:hover{
+    color: grey;
+    font-size: 2rem;
+   
 }
 
 
@@ -266,8 +301,12 @@ body{
 
 }
 .block6-text{
-    width: 550px;
+    /* width: 550px; */
+    width: 50%;
     height: 450px;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
    
 
 }
@@ -292,9 +331,12 @@ body{
     background-image: url(https://buildfire.com/wp-content/themes/buildfire/assets/images/bf-plus-img@3x.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 500px;
+    /* width: 500px; */
+    width: 50%;
     height: 400px;
+    margin-left: 2rem;
 }
+
 .button4{
     width: 260px;
     height:40px ;

@@ -28,11 +28,52 @@
 }
 
 
-.cont{
+.cont1{
     display: flex;
     justify-content: center;
     width:100%; 
-    height:320px;    
+    height:320px;
+    animation-name: upset;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;    
+}
+.cont2{
+    display: flex;
+    justify-content: center;
+    width:100%; 
+    height:320px; 
+    animation-name: upset;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;   
+}
+.cont3{
+    display: flex;
+    justify-content: center;
+    width:100%; 
+    height:320px; 
+    animation-name: upset;
+    animation-duration: 2.2s;
+    animation-iteration-count: 1;   
+}
+.cont4{
+    display: flex;
+    justify-content: center;
+    width:100%; 
+    height:320px;  
+    animation-name: upset;
+    animation-duration: 2.8s;
+    animation-iteration-count: 1;  
+}
+
+@keyframes upset{
+    0%{
+        opacity: 0.2;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 .Info{
